@@ -1,1 +1,215 @@
 
+
+Industrial Internship Report on
+”URL SHORTNER”
+Prepared by
+Gajendra Singh
+
+Executive Summary
+This report provides details of the Industrial Internship provided by upskill Campus and The IoT Academy in collaboration with Industrial Partner UniConverge Technologies Pvt Ltd (UCT).
+This internship was focused on a project/problem statement provided by UCT. We had to finish the project including the report in 6 weeks’ time.
+My project was a URL shortner which shortens the long urls in short ones.
+This internship gave me a very good opportunity to get exposure to Industrial problems and design/implement solution for that. It was an overall great experience to have this internship.
+
+
+
+
+
+
+
+
+
+
+ 
+TABLE OF CONTENTS
+1	Preface	3
+2	Introduction	4
+2.1	About UniConverge Technologies Pvt Ltd	4
+2.2	About upskill Campus	8
+2.3	Objective	9
+2.4	Reference	9
+2.5	Glossary	10
+3	Problem Statement	11
+4	Existing and Proposed solution	12
+5	Proposed Design/ Model	13
+5.1	High Level Diagram (if applicable)	13
+5.2	Low Level Diagram (if applicable)	13
+5.3	Interfaces (if applicable)	13
+6	Performance Test	14
+6.1	Test Plan/ Test Cases	14
+6.2	Test Procedure	14
+6.3	Performance Outcome	14
+7	My learnings	15
+8	Future work scope	16
+
+ 
+1	Preface
+Summary of the whole 6 weeks’ work.
+About need of relevant Internship in career development.
+Brief about Your project/problem statement.
+Opportunity given by USC/UCT.
+How Program was planned
+ 
+Your Learnings and overall experience.
+Thank to all (with names), who have helped you directly or indirectly. 
+Your message to your juniors and peers.
+ 
+2	Introduction
+2.1	About UniConverge Technologies Pvt Ltd
+A company established in 2013 and working in Digital Transformation domain and providing Industrial solutions with prime focus on sustainability and RoI.
+For developing its products and solutions it is leveraging various Cutting Edge Technologies e.g. Internet of Things (IoT), Cyber Security, Cloud computing (AWS, Azure), Machine Learning, Communication Technologies (4G/5G/LoRaWAN), Java Full Stack, Python, Front end etc.
+ 
+i.	UCT IoT Platform ( )
+UCT Insight is an IOT platform designed for quick deployment of IOT applications on the same time providing valuable “insight” for your process/business. It has been built in Java for backend and ReactJS for Front end. It has support for MySQL and various NoSql Databases.
+•	It enables device connectivity via industry standard IoT protocols - MQTT, CoAP, HTTP, Modbus TCP, OPC UA 
+•	It supports both cloud and on-premises deployments.
+It has features to
+• Build Your own dashboard
+• Analytics and Reporting
+• Alert and Notification
+• Integration with third party application(Power BI, SAP, ERP)
+• Rule Engine
+
+   
+
+
+ii.	Smart Factory Platform ( )
+Factory watch is a platform for smart factory needs.
+It provides Users/ Factory 
+•	with a scalable solution for their Production and asset monitoring
+•	OEE and predictive maintenance solution scaling up to digital twin for your assets.
+•	to unleased the true potential of the data that their machines are generating and helps to identify the KPIs and also improve them.
+•	A modular architecture that allows users to choose the service that they what to start and then can scale to more complex solutions as per their demands.
+Its unique SaaS model helps users to save time, cost and money.
+   
+
+
+
+
+
+
+iii.	  based Solution
+UCT  is one of the early adopters of LoRAWAN teschnology and providing solution in Agritech, Smart cities, Industrial Monitoring, Smart Street Light, Smart Water/ Gas/ Electricity metering solutions etc.
+iv.	Predictive Maintenance
+UCT is providing Industrial Machine health monitoring and Predictive maintenance solution leveraging Embedded system, Industrial IoT and Machine Learning Technologies by finding Remaining useful life time of various Machines used in production process.
+ 
+2.2	About upskill Campus (USC)
+upskill Campus along with The IoT Academy and in association with Uniconverge technologies has facilitated the smooth execution of the complete internship process.
+USC is a career development platform that delivers personalized executive coaching in a more affordable, scalable and measurable way.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.3	The IoT Academy
+The IoT academy is EdTech Division of UCT that is running long executive certification programs in collaboration with EICT Academy, IITK, IITR and IITG in multiple domains.
+
+2.4	Objectives of this Internship program
+The objective for this internship program was to
+ ☛ get practical experience of working in the industry.
+ ☛ to solve real world problems.
+ ☛ to have improved job prospects.
+ ☛ to have Improved understanding of our field and its applications. 
+ ☛ to have Personal growth like better communication and problem solving.
+
+
+
+2.5	Reference
+[1]		
+[2]     
+[3]     
+
+2.6	Glossary
+Terms	Acronym
+	
+	
+	
+	
+	
+ 
+3	Problem Statement
+●	URL Shortener:
+
+Description: The URL shortener is a Python project that converts long URLs into shorter, more manageable links. It takes a long URL as input, generates a unique shortened URL, and redirects users to the original URL when the shortened link is accessed.
+
+Scope: The scope of this project involves designing a user interface to input long URLs and display the shortened links, implementing a database to store the mapping between original and shortened URLs, and developing functions to generate unique shortened URLs and handle redirection.
+
+
+
+ 
+4	Existing and Proposed solution
+
+The other solution proposed before are very long nd bacty which consist of Django application . These solution are very log without using the python lybraries
+I proposed a very short solution by using libraries of pyhton like pyshortners and pyperclip to take the longer url as an input. 
+And I used tkinter to give user interrface
+4.1	Code submission (Github link)
+       https://github.com/Gajendra143s/Upskill-campus
+4.2	Report submission (Github link)  : 
+       https://github.com/Gajendra143s/Upskill-campus/blob/main/URLshortner_Gajendra_USC_UCT.pdf 
+ 
+5	Proposed Design/ Model
+
+Given more details about design flow of your solution. This is applicable for all domains. DS/ML Students can cover it after they have their algorithm implementation. There is always a start, intermediate stages and then final outcome.
+5.1	High Level Diagram (if applicable)
+
+
+
+Figure 1: HIGH LEVEL DIAGRAM OF THE SYSTEM
+
+5.2	Low Level Diagram (if applicable)
+
+
+
+
+
+
+5.3	Interfaces (if applicable)
+Update with Block Diagrams, Data flow, protocols, FLOW Charts, State Machines, Memory Buffer Management.
+
+           
+
+ 
+6	Performance Test
+
+This is very important part and defines why this work is meant of Real industries, instead of being just academic project.
+Here we need to first find the constraints. 
+How those constraints were taken care in your design?
+What were test results around those constraints?
+Constraints can be e.g. memory, MIPS (speed, operations per second), accuracy, durability, power consumption etc.
+In case you could not test them, but still you should mention how identified constraints can impact your design, and what are recommendations to handle them.
+
+6.1	Test Plan/ Test Cases
+6.2	Test Procedure
+6.3	Performance Outcome
+
+ 
+7	My learnings
+
+You should provide summary of your overall learning and how it would help you in your career growth. 
+8	Future work scope
+
+You can put some ideas that you could not work due to time limitation but can be taken in future.
+
